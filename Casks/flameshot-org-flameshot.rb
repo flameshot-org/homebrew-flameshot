@@ -16,8 +16,6 @@ cask "flameshot-org-flameshot" do
 
     url "https://github.com/flameshot-org/flameshot/releases/download/v#{version.csv.first}/Flameshot-#{version.csv.second}-macos-#{arch}.dmg"
 
-    disable! date: "2026-09-01", because: :fails_gatekeeper_check
-
     depends_on macos: :sequoia
 
     app "Flameshot.app"
