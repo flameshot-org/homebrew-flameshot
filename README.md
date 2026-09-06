@@ -1,0 +1,18 @@
+# Flameshot-org Tap
+
+## How do I install these formulae?
+
+`brew install flameshot-org/tap/<formula>`
+
+Or `brew tap flameshot-org/tap` and then `brew install <formula>`.
+
+Or, in a `brew bundle` `Brewfile`:
+
+```ruby
+tap "flameshot-org/tap"
+brew "<formula>"
+```
+
+## Documentation
+
+`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
