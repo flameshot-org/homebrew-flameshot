@@ -1,18 +1,11 @@
 # Flameshot-org Tap
 
-## How do I install these formulae?
+This tap exists as an easy way to install Flameshot on MacOS. The main brew repository requires app's be notarized by Apple. However, Apple charges $100 per year and requires a government ID and I am unwilling to do either of these things. Instead, I will happily provide this tap as a convenient way to install Flameshot. 
 
-`brew install flameshot-org/tap/<formula>`
+To use this tap:
 
-Or `brew tap flameshot-org/tap` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "flameshot-org/tap"
-brew "<formula>"
 ```
-
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+brew tap flameshot-org/flameshot
+brew trust --cask flameshot-org/flameshot/flameshot-org-flameshot
+brew install  flameshot-org-flameshot
+```
