@@ -1,4 +1,4 @@
-cask "flameshot" do
+cask "flameshot-org-flameshot" do
   arch arm: "arm64", intel: "intel"
 
   version "14.0.0,14.0,git0.da6121bd"
